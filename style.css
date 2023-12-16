@@ -39,3 +39,17 @@ body {
   transition: 200ms all;
   box-sizing: border-box;
 }
+
+@media (max-width: 700px) {
+  .bt {
+    width: 40vw;
+    height: 20vw;
+    border-radius: 15vw;
+  }
+  .bt-in {
+    width: 15vw;
+    height: 15vw;
+    font-size: 3vw;
+    margin-left: 1.6vw;
+  }
+}
